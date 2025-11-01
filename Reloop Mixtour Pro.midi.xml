@@ -2,10 +2,10 @@
 <MixxxControllerPreset mixxxVersion="2.4+" schemaVersion="1">
     <info>
         <name>Reloop Mixtour Pro</name>
-        <author>HorstBaerbel &amp; gqzomer</author>
-        <description>Mapping for the Reloop Mixage Interface Edition MK1, Interface Edition MK2 and Controller Edition.</description>
-        <forums>https://mixxx.discourse.group/t/reloop-mixage-mapping/14779</forums>
-        <wiki>https://github.com/mixxxdj/mixxx/wiki/Reloop%20Mixage</wiki>
+        <author>Stephen Carroll</author>
+        <description>Mapping for the Reloop Mixtour Pro.</description>
+        <forums>https://mixxx.discourse.group/t/reloop-mixtour-pro/32903</forums>
+        <wiki>https://github.com/mixxxdj/mixxx/wiki/Reloop</wiki>
     </info>
     <controller id="Reloop">
         <scriptfiles>
