@@ -22,8 +22,18 @@
                     <normal/>
                 </options>
             </control>
-            <control>
+			<control>
                 <group>[Channel1]</group>
+                <key>play</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x00</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel3]</group>
                 <key>play</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x92</status>
@@ -61,8 +71,18 @@
                     <normal/>
                 </options>
             </control>
-            <control>
+			 <control>
                 <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel3]</group>
                 <key>cue_default</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x92</status>
@@ -90,8 +110,18 @@
                     <normal/>
                 </options>
             </control>
+			<control>
+			<group>[Channel1]</group>
+                <key>sync_enabled</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x02</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
             <control>
-                <group>[Channel1]</group>
+                <group>[Channel3]</group>
                 <key>sync_enabled</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x92</status>
@@ -130,10 +160,20 @@
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
+                <group>[Channel3]</group>
                 <key>beatloop_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x92</status>
+                <midino>0x03</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			<control>
+                <group>[Channel1]</group>
+                <key>beatloop_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
                 <midino>0x03</midino>
                 <options>
                     <normal/>
@@ -288,6 +328,46 @@
                 <midino>0x0C</midino>
                 <options>
                     <script-binding/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel4]</group>
+                <key>play</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
+                <midino>0x00</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel4]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			<control>
+			<group>[Channel4]</group>
+                <key>sync_enabled</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
+                <midino>0x02</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			<control>
+                <group>[Channel4]</group>
+                <key>beatloop_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
+                <midino>0x03</midino>
+                <options>
+                    <normal/>
                 </options>
             </control>
             <control>
