@@ -13,16 +13,6 @@
         </scriptfiles>
         <controls>
             <control>
-                <group>[Channel2]</group>
-                <key>play</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x91</status>
-                <midino>0x00</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-			<control>
                 <group>[Channel1]</group>
                 <key>play</key>
                 <description>MIDI Learned from 2 messages.</description>
@@ -33,10 +23,30 @@
                 </options>
             </control>
             <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x91</status>
+                <midino>0x00</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel3]</group>
                 <key>play</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x92</status>
+                <midino>0x00</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel4]</group>
+                <key>play</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
                 <midino>0x00</midino>
                 <options>
                     <normal/>
@@ -62,16 +72,6 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
-                <key>cue_default</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x91</status>
-                <midino>0x01</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-			 <control>
                 <group>[Channel1]</group>
                 <key>cue_default</key>
                 <description>MIDI Learned from 2 messages.</description>
@@ -82,10 +82,30 @@
                 </options>
             </control>
             <control>
+                <group>[Channel2]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x91</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel3]</group>
                 <key>cue_default</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x92</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel4]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
                 <midino>0x01</midino>
                 <options>
                     <normal/>
@@ -101,20 +121,20 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>sync_enabled</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x91</status>
+                <status>0x90</status>
                 <midino>0x02</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
-			<control>
-			<group>[Channel1]</group>
+            <control>
+                <group>[Channel2]</group>
                 <key>sync_enabled</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x90</status>
+                <status>0x91</status>
                 <midino>0x02</midino>
                 <options>
                     <normal/>
@@ -125,6 +145,16 @@
                 <key>sync_enabled</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x92</status>
+                <midino>0x02</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel4]</group>
+                <key>sync_enabled</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
                 <midino>0x02</midino>
                 <options>
                     <normal/>
@@ -150,6 +180,16 @@
                 </options>
             </control>
             <control>
+                <group>[Channel1]</group>
+                <key>beatloop_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x03</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel2]</group>
                 <key>beatloop_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
@@ -169,11 +209,11 @@
                     <normal/>
                 </options>
             </control>
-			<control>
-                <group>[Channel1]</group>
+            <control>
+                <group>[Channel4]</group>
                 <key>beatloop_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x90</status>
+                <status>0x93</status>
                 <midino>0x03</midino>
                 <options>
                     <normal/>
@@ -306,7 +346,7 @@
                 <group>[Channel1]</group>
                 <key>LoadSelectedTrack</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x96</status>
+                <status>0x94</status>
                 <midino>0x0A</midino>
                 <options>
                     <normal/>
@@ -328,46 +368,6 @@
                 <midino>0x0C</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-			            <control>
-                <group>[Channel4]</group>
-                <key>play</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x93</status>
-                <midino>0x00</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-			            <control>
-                <group>[Channel4]</group>
-                <key>cue_default</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x93</status>
-                <midino>0x01</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-			<control>
-			<group>[Channel4]</group>
-                <key>sync_enabled</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x93</status>
-                <midino>0x02</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-			<control>
-                <group>[Channel4]</group>
-                <key>beatloop_activate</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x93</status>
-                <midino>0x03</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -476,8 +476,48 @@
                 <group>[Channel1]</group>
                 <key>hotcue_1_activate</key>
                 <description>MIDI Learned from 4 messages.</description>
-                <status>0x96</status>
+                <status>0x94</status>
                 <midino>0x14</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_5_activate</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0x94</status>
+                <midino>0x18</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_6_activate</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0x94</status>
+                <midino>0x19</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_7_activate</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0x94</status>
+                <midino>0x1A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_8_activate</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0x94</status>
+                <midino>0x1B</midino>
                 <options>
                     <normal/>
                 </options>
@@ -505,7 +545,7 @@
                 <group>[Channel1]</group>
                 <key>hotcue_2_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x96</status>
+                <status>0x94</status>
                 <midino>0x15</midino>
                 <options>
                     <normal/>
@@ -534,7 +574,7 @@
                 <group>[Channel1]</group>
                 <key>hotcue_3_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x96</status>
+                <status>0x94</status>
                 <midino>0x16</midino>
                 <options>
                     <normal/>
@@ -554,7 +594,7 @@
                 <group>[Channel1]</group>
                 <key>pregain</key>
                 <description>MIDI Learned from 242 messages.</description>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x16</midino>
                 <options>
                     <normal/>
@@ -583,7 +623,7 @@
                 <group>[Channel1]</group>
                 <key>hotcue_4_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x96</status>
+                <status>0x94</status>
                 <midino>0x17</midino>
                 <options>
                     <normal/>
@@ -603,7 +643,7 @@
                 <group>[EqualizerRack1_[Channel1]_Effect1]</group>
                 <key>parameter3</key>
                 <description>MIDI Learned from 220 messages.</description>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x17</midino>
                 <options>
                     <normal/>
@@ -632,7 +672,7 @@
                 <group>[EqualizerRack1_[Channel1]_Effect1]</group>
                 <key>parameter2</key>
                 <description>MIDI Learned from 222 messages.</description>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x18</midino>
                 <options>
                     <normal/>
@@ -661,7 +701,7 @@
                 <group>[EqualizerRack1_[Channel1]_Effect1]</group>
                 <key>parameter1</key>
                 <description>MIDI Learned from 225 messages.</description>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x19</midino>
                 <options>
                     <normal/>
@@ -690,7 +730,7 @@
                 <group>[QuickEffectRack1_[Channel1]]</group>
                 <key>super1</key>
                 <description>MIDI Learned from 222 messages.</description>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x1A</midino>
                 <options>
                     <normal/>
@@ -719,7 +759,7 @@
                 <group>[Channel1]</group>
                 <key>pfl</key>
                 <description>MIDI Learned from 3 messages.</description>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x1B</midino>
                 <options>
                     <normal/>
@@ -728,7 +768,7 @@
             <control>
                 <group>[Channel2]</group>
                 <key>pfl</key>
-                <status>0x90</status>
+                <status>0x91</status>
                 <midino>0x1C</midino>
                 <options>
                     <normal/>
@@ -748,7 +788,57 @@
                 <group>[Channel1]</group>
                 <key>hotcue_1_clear</key>
                 <description>PAD 1</description>
-                <status>0x96</status>
+                <status>0x94</status>
+                <midino>0x1C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_5_clear</key>
+                <description>PAD 1</description>
+                <status>0x94</status>
+                <midino>0x20</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_6_clear</key>
+                <description>PAD 1</description>
+                <status>0x94</status>
+                <midino>0x21</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_7_clear</key>
+                <description>PAD 1</description>
+                <status>0x94</status>
+                <midino>0x22</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+			            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_8_clear</key>
+                <description>PAD 1</description>
+                <status>0x94</status>
+                <midino>0x23</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>volume</key>
+                <description>MIDI Learned from 322 messages.</description>
+                <status>0xB0</status>
                 <midino>0x1C</midino>
                 <options>
                     <normal/>
@@ -768,7 +858,7 @@
                 <group>[Channel1]</group>
                 <key>volume</key>
                 <description>MIDI Learned from 273 messages.</description>
-                <status>0xB2</status>
+                <status>0xB0</status>
                 <midino>0x1C</midino>
                 <options>
                     <normal/>
@@ -788,7 +878,7 @@
                 <group>[Channel1]</group>
                 <key>hotcue_2_clear</key>
                 <description>PAD 1</description>
-                <status>0x96</status>
+                <status>0x94</status>
                 <midino>0x1D</midino>
                 <options>
                     <normal/>
@@ -808,7 +898,7 @@
                 <group>[Channel1]</group>
                 <key>hotcue_3_clear</key>
                 <description>PAD 1</description>
-                <status>0x96</status>
+                <status>0x94</status>
                 <midino>0x1E</midino>
                 <options>
                     <normal/>
@@ -837,7 +927,7 @@
                 <group>[Channel1]</group>
                 <key>hotcue_4_clear</key>
                 <description>PAD 1</description>
-                <status>0x96</status>
+                <status>0x94</status>
                 <midino>0x1F</midino>
                 <options>
                     <normal/>
@@ -1624,340 +1714,350 @@
             </control>
         </controls>
         <outputs>
-      <output>
-        <group>[Channel1]</group>
-        <key>play</key>
-        <!-- Replace status and midino for the controller LED message (these are placeholders) -->
-        <status>0x92</status>
-        <midino>0x00</midino>
-        <off>0x01</off>
-        <minimum>0.2</minimum>
-      </output>
-	  <output>
-<group>[Channel1]</group>
-<key>cue_indicator</key>
-<description>CUE LED1</description>
-<status>0x92</status>
-<midino>0x01</midino>
-<off>0x01</off>
-<minimum>0.5</minimum>
-</output>
             <output>
-                <group>[Channel1]</group>
-                <key>pitch_down</key>
-                <status>0x90</status>
-                <midino>0x01</midino>
-                <minimum>0.5</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>pitch_up</key>
-                <status>0x90</status>
-                <midino>0x02</midino>
-                <minimum>0.5</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>rate_temp_down</key>
-                <status>0x90</status>
-                <midino>0x01</midino>
-                <minimum>0.5</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>rate_temp_up</key>
-                <status>0x90</status>
-                <midino>0x02</midino>
-                <minimum>0.5</minimum>
-            </output>
-            <output>
-                <group>[Channel2]</group>
-                <key>pitch_down</key>
-                <status>0x90</status>
-                <midino>0x0F</midino>
-                <minimum>0.5</minimum>
-            </output>
-            <output>
-                <group>[Channel2]</group>
-                <key>pitch_up</key>
-                <status>0x90</status>
-                <midino>0x10</midino>
-                <minimum>0.5</minimum>
-            </output>
-            <output>
-                <group>[Channel2]</group>
-                <key>rate_temp_down</key>
-                <status>0x90</status>
-                <midino>0x0F</midino>
-                <minimum>0.5</minimum>
-            </output>
-            <output>
-                <group>[Channel2]</group>
-                <key>rate_temp_up</key>
-                <status>0x90</status>
-                <midino>0x10</midino>
-                <minimum>0.5</minimum>
-            </output>
-			 
-				      <output>
-        <group>[Channel2]</group>
-        <key>play</key>
-        <!-- Replace status and midino for the controller LED message (these are placeholders) -->
-        <status>0x91</status>
-        <midino>0x00</midino>
-        <off>0x01</off>
-        <minimum>0.2</minimum>
-      </output>
-	  <output>
-<group>[Channel2]</group>
-<key>cue_indicator</key>
-<description>CUE LED1</description>
-<status>0x91</status>
-<midino>0x01</midino>
-<off>0x01</off>
-<minimum>0.5</minimum>
-</output>
-<output>
                 <group>[Channel1]</group>
                 <key>beatloop_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0x92</status>
+                <status>0x90</status>
                 <midino>0x03</midino>
-				<minimum>0.5</minimum>
-				<maximum>1</maximum>
-				<on>0x7f</on>
-				<off>0x0</off>
-</output>
-<output>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>cue_indicator</key>
+                <description>CUE LED1</description>
+                <status>0x90</status>
+                <midino>0x01</midino>
+                <off>0x01</off>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_1_status</key>
+                <description>Hotcue 1 (Pad 1)</description>
+                <status>0x94</status>
+                <midino>0x1C</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_1_status</key>
+                <description>Hotcue 1 (Pad 1)</description>
+                <status>0x94</status>
+                <midino>0x14</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_2_status</key>
+                <description>Hotcue 2 (Pad 2)</description>
+                <status>0x94</status>
+                <midino>0x1D</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_2_status</key>
+                <description>Hotcue 2 (Pad 2)</description>
+                <status>0x94</status>
+                <midino>0x15</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_3_status</key>
+                <description>Hotcue 3 (Pad 3)</description>
+                <status>0x94</status>
+                <midino>0x1E</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_3_status</key>
+                <description>Hotcue 3 (Pad 3)</description>
+                <status>0x94</status>
+                <midino>0x16</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_4_status</key>
+                <description>Hotcue 4 (Pad 4)</description>
+                <status>0x94</status>
+                <midino>0x1F</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>hotcue_4_status</key>
+                <description>Hotcue 4 (Pad 4)</description>
+                <status>0x94</status>
+                <midino>0x17</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+			<output>
+			                <group>[Channel1]</group>
+                <key>hotcue_5_status</key>
+                <description>Hotcue 4 (Pad 4)</description>
+                <status>0x94</status>
+                <midino>0x20</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+			<output>
+			                <group>[Channel1]</group>
+                <key>hotcue_5_status</key>
+                <description>Hotcue 4 (Pad 4)</description>
+                <status>0x94</status>
+                <midino>0x21</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+			<output>
+			                <group>[Channel1]</group>
+                <key>hotcue_5_status</key>
+                <description>Hotcue 4 (Pad 4)</description>
+                <status>0x94</status>
+                <midino>0x22</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+			<output>
+			                <group>[Channel1]</group>
+                <key>hotcue_5_status</key>
+                <description>Hotcue 4 (Pad 4)</description>
+                <status>0x94</status>
+                <midino>0x23</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>pfl</key>
+                <description>PFL LED DECK A</description>
+                <status>0x90</status>
+                <midino>0x1B</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>pitch_down</key>
+                <status>0x90</status>
+                <midino>0x01</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>pitch_up</key>
+                <status>0x90</status>
+                <midino>0x02</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <status>0x90</status>
+                <midino>0x00</midino>
+                <off>0x01</off>
+                <minimum>0.2</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <status>0x90</status>
+                <midino>0x01</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <status>0x90</status>
+                <midino>0x02</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>sync_enabled</key>
+                <description>SYNC LED Deck A</description>
+                <status>0x90</status>
+                <midino>0x02</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
                 <group>[Channel2]</group>
                 <key>beatloop_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x91</status>
                 <midino>0x03</midino>
-				<minimum>0.5</minimum>
-				<maximum>1</maximum>
-				<on>0x7f</on>
-				<off>0x0</off>
-</output>
-
-<output>
-				<group>[Channel1]</group>
-				<key>pfl</key>
-				<description>PFL LED DECK A</description>
-				<minimum>0.5</minimum>
-				<maximum>1</maximum>
-				<status>0x92</status>
-				<midino>0x1B</midino>
-				<on>0x7f</on>
-				<off>0x0</off>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>pfl</key>
-				<description>PFL LED DECK B</description>
-				<minimum>0.5</minimum>
-				<maximum>1</maximum>
-				<status>0x91</status>
-				<midino>0x1B</midino>
-				<on>0x7f</on>
-				<off>0x0</off>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>sync_enabled</key>
-				<description>SYNC LED Deck A</description>
-				<minimum>0.5</minimum>
-				<maximum>1</maximum>
-				<status>0x92</status>
-				<midino>0x02</midino>
-				<on>0x7f</on>
-				<off>0x0</off>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>sync_enabled</key>
-				<description>SYNC LED Deck B</description>
-				<minimum>0.5</minimum>
-				<maximum>1</maximum>
-				<status>0x91</status>
-				<midino>0x02</midino>
-				<on>0x7f</on>
-				<off>0x0</off>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>hotcue_1_status</key>
-				<description>Hotcue 1 (Pad 1)</description>
-				<status>0x96</status>
-				<midino>0x14</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>hotcue_2_status</key>
-				<description>Hotcue 2 (Pad 2)</description>
-				<status>0x96</status>
-				<midino>0x15</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>hotcue_3_status</key>
-				<description>Hotcue 3 (Pad 3)</description>
-				<status>0x96</status>
-				<midino>0x16</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>hotcue_4_status</key>
-				<description>Hotcue 4 (Pad 4)</description>
-				<status>0x96</status>
-				<midino>0x17</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>hotcue_1_status</key>
-				<description>Hotcue 1 (Pad 1)</description>
-				<status>0x96</status>
-				<midino>0x1C</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>hotcue_2_status</key>
-				<description>Hotcue 2 (Pad 2)</description>
-				<status>0x96</status>
-				<midino>0x1D</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>hotcue_3_status</key>
-				<description>Hotcue 3 (Pad 3)</description>
-				<status>0x96</status>
-				<midino>0x1E</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel1]</group>
-				<key>hotcue_4_status</key>
-				<description>Hotcue 4 (Pad 4)</description>
-				<status>0x96</status>
-				<midino>0x1F</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>hotcue_1_status</key>
-				<description>Hotcue 1 (Pad 1)</description>
-				<status>0x95</status>
-				<midino>0x14</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>hotcue_2_status</key>
-				<description>Hotcue 2 (Pad 2)</description>
-				<status>0x95</status>
-				<midino>0x15</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>hotcue_3_status</key>
-				<description>Hotcue 3 (Pad 3)</description>
-				<status>0x95</status>
-				<midino>0x16</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>hotcue_4_status</key>
-				<description>Hotcue 4 (Pad 4)</description>
-				<status>0x95</status>
-				<midino>0x17</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>hotcue_1_status</key>
-				<description>Hotcue 1 (Pad 1)</description>
-				<status>0x95</status>
-				<midino>0x1C</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>hotcue_2_status</key>
-				<description>Hotcue 2 (Pad 2)</description>
-				<status>0x95</status>
-				<midino>0x1D</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>hotcue_3_status</key>
-				<description>Hotcue 3 (Pad 3)</description>
-				<status>0x95</status>
-				<midino>0x1E</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			<output>
-				<group>[Channel2]</group>
-				<key>hotcue_4_status</key>
-				<description>Hotcue 4 (Pad 4)</description>
-				<status>0x95</status>
-				<midino>0x1F</midino>
-				<on>0x7E</on>
-				<minimum>0.5</minimum>
-				<maximum>2</maximum>
-			</output>
-			            <output>
-
-                <group>[Main]</group>
-
-                <key>vu_meter_left</key>
-
-                <status>0x96</status>
-
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>cue_indicator</key>
+                <description>CUE LED1</description>
+                <status>0x91</status>
+                <midino>0x01</midino>
+                <off>0x01</off>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_1_status</key>
+                <description>Hotcue 1 (Pad 1)</description>
+                <status>0x95</status>
+                <midino>0x1C</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_1_status</key>
+                <description>Hotcue 1 (Pad 1)</description>
+                <status>0x95</status>
+                <midino>0x14</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_2_status</key>
+                <description>Hotcue 2 (Pad 2)</description>
+                <status>0x95</status>
+                <midino>0x1D</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_2_status</key>
+                <description>Hotcue 2 (Pad 2)</description>
+                <status>0x95</status>
+                <midino>0x15</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_3_status</key>
+                <description>Hotcue 3 (Pad 3)</description>
+                <status>0x95</status>
                 <midino>0x1E</midino>
-
-                <on>0x7F</on>
-
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_3_status</key>
+                <description>Hotcue 3 (Pad 3)</description>
+                <status>0x95</status>
+                <midino>0x16</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_4_status</key>
+                <description>Hotcue 4 (Pad 4)</description>
+                <status>0x95</status>
+                <midino>0x1F</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>hotcue_4_status</key>
+                <description>Hotcue 4 (Pad 4)</description>
+                <status>0x95</status>
+                <midino>0x17</midino>
+                <on>0x7E</on>
+                <maximum>2</maximum>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>pfl</key>
+                <description>PFL LED DECK B</description>
+                <status>0x91</status>
+                <midino>0x1B</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>pitch_down</key>
+                <status>0x90</status>
+                <midino>0x0F</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>pitch_up</key>
+                <status>0x90</status>
+                <midino>0x10</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <status>0x91</status>
+                <midino>0x00</midino>
+                <off>0x01</off>
+                <minimum>0.2</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>rate_temp_down</key>
+                <status>0x90</status>
+                <midino>0x0F</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>rate_temp_up</key>
+                <status>0x90</status>
+                <midino>0x10</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>sync_enabled</key>
+                <description>SYNC LED Deck B</description>
+                <status>0x91</status>
+                <midino>0x02</midino>
+                <minimum>0.5</minimum>
+            </output>
+            <output>
+                <group>[Main]</group>
+                <key>vu_meter_left</key>
+                <status>0x94</status>
+                <midino>0x1E</midino>
                 <minimum>0.1</minimum>
-
             </output>
         </outputs>
     </controller>
