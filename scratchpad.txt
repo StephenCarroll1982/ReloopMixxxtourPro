@@ -1,0 +1,124 @@
+Deck 1
+94 00 - Hot Cue
+94 01 - Bounce Loop
+94 02 - Pitch Cue
+94 03 - Instant FX
+
+94 04 - Auto Loop
+94 05 - Sampler
+94 06 - Saved Loops
+94 07 - Neural Mix
+
+Deck 2
+95 00 - Hot Cue
+95 01 - Bounce Loop
+95 02 - Pitch Cue
+95 03 - Instant FX
+
+95 04 - Auto Loop
+95 05 - Sampler
+95 06 - Saved Loops
+95 07 - Neural Mix
+
+Deck 3
+96 00 - Hot Cue
+96 01 - Bounce Loop
+96 02 - Pitch Cue
+96 03 - Instant FX
+
+96 04 - Auto Loop
+96 05 - Sampler
+96 06 - Saved Loops
+96 07 - Neural Mix
+
+Deck 4
+97 00 - Hot Cue
+97 01 - Bounce Loop
+97 02 - Pitch Cue
+97 03 - Instant FX
+
+97 04 - Auto Loop
+97 05 - Sampler
+97 06 - Saved Loops
+97 07 - Neural Mix
+
+Deck 1 - Pads
+94 14 - 1
+94 15 - 2
+94 16 - 3
+94 17 - 4
+
+94 18 - 5
+94 19 - 6
+94 1A - 7
+94 1B - 8
+
+Deck 2 - Pads
+95 14 - 1
+95 15 - 2
+95 16 - 3
+95 17 - 4
+
+95 18 - 5
+95 19 - 6
+95 1A - 7
+95 1B - 8
+
+Deck 3 - Pads
+96 14 - 1
+96 15 - 2
+96 16 - 3
+96 17 - 4
+
+96 18 - 5
+96 19 - 6
+96 1A - 7
+96 1B - 8
+
+Deck 4 - Pads
+97 14 - 1
+97 15 - 2
+97 16 - 3
+97 17 - 4
+
+97 18 - 5
+97 19 - 6
+97 1A - 7
+97 1B - 8
+
+
+djcmixultra
+hot cue - loop - fx - neural
+pitch play - bounce loop - slicer - sampler
+
+mixtour
+Hot cue - auto loop
+bounce loop - sampler
+pitch cue - saved loop
+instant fx- neural mix
+
+
+Deck 1
+Hot Cue
+94 00
+
+Bounce Loop
+94 01
+
+Pitch Cue
+94 02
+
+Instant FX
+94 03
+
+Auto Loop
+94 04
+
+Sampler
+94 05
+
+Saved Loops
+94 06
+
+Neural Mix
+94 07
