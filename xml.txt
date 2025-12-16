@@ -1,0 +1,71 @@
+# MixtourPro.xml
+```xml
+<controller>
+  <controller id="Reloop-Mixtour-Pro" schemaVersion="1.0">
+    <scriptfiles>
+      <scriptfile filename="MixtourPro.js"/>
+    </scriptfiles>
+
+    <!-- TRANSPORT + MIXER BUTTONS -->
+    <controls>
+      <!-- TRANSPORT (Decks 1–4 via MIDI Channels N 0–3) -->
+      <control midi="0x90 0x00" group="[Channel1]" name="play"/>
+      <control midi="0x90 0x01" group="[Channel1]" name="cue_default"/>
+      <control midi="0x90 0x02" group="[Channel1]" name="beatsync"/>
+      <control midi="0x90 0x03" group="[Channel1]" name="reloop_exit"/>
+
+      <control midi="0x91 0x00" group="[Channel2]" name="play"/>
+      <control midi="0x91 0x01" group="[Channel2]" name="cue_default"/>
+      <control midi="0x91 0x02" group="[Channel2]" name="beatsync"/>
+      <control midi="0x91 0x03" group="[Channel2]" name="reloop_exit"/>
+
+      <control midi="0x92 0x00" group="[Channel3]" name="play"/>
+      <control midi="0x92 0x01" group="[Channel3]" name="cue_default"/>
+      <control midi="0x92 0x02" group="[Channel3]" name="beatsync"/>
+      <control midi="0x92 0x03" group="[Channel3]" name="reloop_exit"/>
+
+      <control midi="0x93 0x00" group="[Channel4]" name="play"/>
+      <control midi="0x93 0x01" group="[Channel4]" name="cue_default"/>
+      <control midi="0x93 0x02" group="[Channel4]" name="beatsync"/>
+      <control midi="0x93 0x03" group="[Channel4]" name="reloop_exit"/>
+
+      <!-- MIXER KNOBS (same MIDI per deck, handled in JS) -->
+      <control midi="0xB0 0x16" group="[Channel1]" name="pregain"/>
+      <control midi="0xB0 0x17" group="[Channel1]" name="filterHigh"/>
+      <control midi="0xB0 0x18" group="[Channel1]" name="filterMid"/>
+      <control midi="0xB0 0x19" group="[Channel1]" name="filterLow"/>
+      <control midi="0xB0 0x1A" group="[Channel1]" name="super1"/>
+      <control midi="0xB0 0x1C" group="[Channel1]" name="volume"/>
+
+      <!-- CROSS + HEADPHONE -->
+      <control midi="0xB7 0x08" group="[Master]" name="crossfader"/>
+      <control midi="0x90 0x1B" group="[Channel1]" name="pfl"/>
+      <control midi="0xB8 0x0D" group="[Master]" name="headMix"/>
+      <control midi="0xB8 0x0C" group="[Master]" name="headGain"/>
+
+      <!-- BROWSER -->
+      <control midi="0xB8 0x00" group="[Library]" name="Move"/>
+      <control midi="0x98 0x06" group="[Library]" name="GoToItem"/>
+      <control midi="0x99 0x0A" group="[Channel1]" name="LoadSelectedTrack"/>
+      <control midi="0x9A 0x0A" group="[Channel2]" name="LoadSelectedTrack"/>
+      <control midi="0x9B 0x0A" group="[Channel3]" name="LoadSelectedTrack"/>
+      <control midi="0x9C 0x0A" group="[Channel4]" name="LoadSelectedTrack"/>
+
+      <!-- MODE + SHIFT -->
+      <control midi="0x94 0x08" group="[Master]" name="mode_button"/>
+      <control midi="0x90 0x00" group="[Master]" name="shift"/>
+
+      <!-- PADS (JS assigns modes + LEDs) -->
+      <control midi="0x94 0x14" group="[Master]" name="pad_1"/>
+      <control midi="0x94 0x15" group="[Master]" name="pad_2"/>
+      <control midi="0x94 0x16" group="[Master]" name="pad_3"/>
+      <control midi="0x94 0x17" group="[Master]" name="pad_4"/>
+      <control midi="0x94 0x18" group="[Master]" name="pad_5"/>
+      <control midi="0x94 0x19" group="[Master]" name="pad_6"/>
+      <control midi="0x94 0x1A" group="[Master]" name="pad_7"/>
+      <control midi="0x94 0x1B" group="[Master]" name="pad_8"/>
+
+    </controls>
+  </controller>
+</controller>
+```

@@ -1,0 +1,10 @@
+<controller>
+  <controller id="Reloop-Mixtour-Pro" schemaVersion="1.0">
+    <scriptfiles>
+      <scriptfile filename="MixtourPro.js"/>
+    </scriptfiles>
+    <!-- Full XML content from canvas -->
+    <!-- Transport, Mixer, Browser, Pads, Shift, Mode, 4 Deck Support -->
+    <!-- (Same structure as shown in the canvas document) -->
+  </controller>
+</controller>
