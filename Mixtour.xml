@@ -1,5 +1,4 @@
 # MixtourPro.xml
-```xml
 <controller>
   <controller id="Reloop-Mixtour-Pro" schemaVersion="1.0">
     <scriptfiles>
@@ -68,4 +67,3 @@
     </controls>
   </controller>
 </controller>
-```
