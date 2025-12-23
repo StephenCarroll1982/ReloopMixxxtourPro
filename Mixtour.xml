@@ -1,6 +1,13 @@
-# MixtourPro.xml
-<controller>
-  <controller id="Reloop-Mixtour-Pro" schemaVersion="1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="2.4+" schemaVersion="1">
+    <info>
+        <name>Reloop Mixtour Pro</name>
+        <author>Stephen Carroll</author>
+        <description>Mapping for the Reloop Mixtour Pro.</description>
+        <forums>https://mixxx.discourse.group/t/reloop-mixtour-pro/32903</forums>
+        <wiki>https://github.com/mixxxdj/mixxx/wiki/Reloop</wiki>
+    </info>
+   <controller id="Reloop">
     <scriptfiles>
       <scriptfile filename="MixtourPro.js"/>
     </scriptfiles>
@@ -67,3 +74,4 @@
     </controls>
   </controller>
 </controller>
+</MixxxControllerPreset>
