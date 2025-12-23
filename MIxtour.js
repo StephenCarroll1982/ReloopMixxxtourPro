@@ -1,16 +1,16 @@
 # Mixxx Controller Mapping for Reloop Mixtour Pro (Enhanced)
 
-This version adds:
-- **Refined Pad Modes** (Hotcues, Loop, FX, Neural Mix)
-- **Full LED feedback** (RGB Pads + Transport Bi-LEDs)
-- **4‑Deck support** with dynamic deck selection
+*This version adds:
+*- **Refined Pad Modes** (Hotcues, Loop, FX, Neural Mix)
+*- **Full LED feedback** (RGB Pads + Transport Bi-LEDs)
+*- **4‑Deck support** with dynamic deck selection
 
----
+*---
 
 
----
+*---
 # MixtourPro.js
-```javascript
+*javascript
 var MixtourPro = {
     deck: 1,
     padMode: 0,
@@ -100,4 +100,3 @@ MixtourPro.updatePadLEDsEnhanced = function() {
         MixtourPro.sendLED(0x94,pad,color);
     }
 };
-```
