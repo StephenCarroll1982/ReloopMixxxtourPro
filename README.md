@@ -63,5 +63,6 @@ was resolved against the real hardware, and the debugging setup used to do it.
 
 ## Credits
 
-Mapping by Stephen Carroll, with corrections and additional features developed
-against the physical hardware.
+- Original mapping by Stephen Carroll.
+- Corrections and additional features developed
+against the physical hardware by @sayak-brm
