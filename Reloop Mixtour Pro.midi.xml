@@ -2,7 +2,7 @@
 <MixxxControllerPreset mixxxVersion="2.4+" schemaVersion="1">
     <info>
         <name>Reloop Mixtour Pro</name>
-        <author>Stephen Carroll</author>
+        <author>Stephen Carroll & @sayak-brm</author>
         <description>Mapping for the Reloop Mixtour Pro (djay Pro parity rebuild).</description>
         <forums>https://mixxx.discourse.group/t/reloop-mixtour-pro/32903</forums>
         <wiki>https://github.com/mixxxdj/mixxx/wiki/Reloop</wiki>
